@@ -1,0 +1,54 @@
+package Modules;
+
+import Listeners.BaseClass;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import ElementsPath.Elements;
+
+public class Login extends BaseClass {
+	AppiumDriver<MobileElement> driver;
+	Elements elementPath1=new Elements();
+	
+	public void LoginTest()
+	{
+		
+try
+{
+	int a=0,b=0;
+	int sum;
+	
+	sum=a+b;
+	
+     System.out.println("Sum is " + sum);
+	
+	/*	//click login btn in landing screen
+		ClickBtn(elementPath1.login);
+		Thread.sleep(5000);
+		//Enter data and click login
+		SetText(elementPath1.email1,"yangjee3@getnada.com");
+		SetText(elementPath1.pass,"password1");
+		ClickBtn(elementPath1.login1); 
+		
+		locator=elementPath1.land_profile;
+		
+		String profile=GetText();
+		if(profile.equalsIgnoreCase("Profile Set Up"))//checking login profile title
+		{
+			System.out.println("User has been successfully logged in.");	
+		}
+		else
+		{
+			System.out.println("Unable to log in");
+		}
+		*/
+}
+
+	catch(Throwable e)
+	{
+	e.printStackTrace();
+	}
+
+		
+	}
+
+}

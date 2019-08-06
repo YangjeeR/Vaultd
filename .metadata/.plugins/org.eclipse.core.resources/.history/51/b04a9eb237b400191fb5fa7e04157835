@@ -1,0 +1,17 @@
+[
+  {
+    "localId": "123",
+    "relation": "Father",
+    "_id": "5d42773d37093203bdad4820",
+    "firstName": "Bakhat",
+    "lastName": "Rai",
+    "middleName": "",
+    "email": "",
+    "nickName": "",
+    "dob": "2019-10-24",
+    "address": "Thaiba",
+    "isDeleted": false,
+    "contactNumber": "9841151757",
+    "lastUpdatedAt": "1223456789"
+  }
+]

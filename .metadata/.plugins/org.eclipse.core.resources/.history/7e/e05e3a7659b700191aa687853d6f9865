@@ -1,0 +1,42 @@
+package Modules;
+
+import java.io.FileInputStream;
+import java.net.URL;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class test {
+	
+	AppiumDriver<MobileElement> driver;
+
+	@Test
+	public void test1()
+	{	FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Config\\config.properties");
+	Config.load(fis);
+	
+	
+	 System.out.println("Session is creating");
+	 DesiredCapabilities cap=new DesiredCapabilities();
+	 cap.setCapability("platformName",Config.getProperty("platformName"));
+	 cap.setCapability("deviceName",Config.getProperty("deviceName") ); 
+	 cap.setCapability("platformVersion", Config.getProperty("platformVersion"));
+	 cap.setCapability("noReset",true);
+	 cap.setCapability("appPackage",Config.getProperty("appPackage") );
+	 cap.setCapability("appActivity", Config.getProperty("appActivity"));
+	 cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "60");
+	 
+	 try
+ 
+driver= new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),cap);
+System.out.println("Session is created");   
+	 
+		driver.findElement(By.xpath("//android.widget.Button[@text='Sign up']")).click();
+	}
+}

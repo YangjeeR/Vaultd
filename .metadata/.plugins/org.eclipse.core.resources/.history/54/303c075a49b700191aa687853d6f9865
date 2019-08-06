@@ -1,0 +1,12 @@
+package Modules;
+
+public class sum {
+
+	Login obj=new Login();
+	
+	@Test
+	public void sum1()
+	{
+		obj.LoginTest(2, 3);
+	}
+}

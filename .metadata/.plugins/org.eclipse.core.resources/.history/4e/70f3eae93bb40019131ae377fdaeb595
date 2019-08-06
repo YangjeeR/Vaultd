@@ -1,0 +1,137 @@
+{
+  "_id": "",
+  "localId": "123",
+  "isDeleted": false,
+  "lastUpdatedAt": 1564458400,
+  "bankAccountDetails": [
+    {
+      "localId": "123",
+      "_id": "",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "bankName": "WorldBank",
+      "accountNumber": "1234567acc",
+      "approxValue": 100
+    }
+  ],
+  "cryptoDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "coinName": "Bit Coin",
+      "exchangeName": "Anita Ra",
+      "ownedCoin": 100,
+      "approxValue":150
+    }
+  ],
+  "realPropertyDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "address": "Buddhanilkantha, KTM",
+      "approxValue": 2500000
+    }
+  ],
+  "sharesDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "companyName": "Firefly Services Ptv Ltd",
+      "numberOfShare":50,
+      "asxCode": "QWd",
+      "approxValue": 100000
+    }
+  ],
+  "cashDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "approxStoredLocation": "Kumaripati, Lalitpur",
+      "approxValue": 5000000
+    }
+  ],
+  "vehiclesDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "vehicleType": "Car",
+      "description": "Black",
+      "makeModel": "Ford",
+      "registrationNumber": "345awefgqq112",
+      "joinOwnerShip": false,
+      "joinOwnerShipDetails": [
+        {
+        }
+      ],
+      "joinOwnerShipFamilyIds": [
+        null
+      ],
+      "approxValue": 6500000
+    }
+  ],
+  "debtDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "personName": "Pratik Shrestha",
+      "approxValue": 340000
+    }
+  ],
+  "lifeInsuranceDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "isNominated": false,
+      "name": "Sunita",
+      "nominationIds": [
+        null
+      ],
+      "approxValue": 0
+    }
+  ],
+  "superannuationDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "superFundName": "Four sisters",
+      "isSuperNomination": false,
+      "superNominationDetails": [
+        {
+        }
+      ],
+      "superNominationIds": [
+        null
+      ],
+      "nominationBinding": "string",
+      "approxValue": 0
+    }
+  ],
+  "otherDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "title": "Flat",
+      "description": "Beautiful flat with terrace view.",
+      "approxValue": 500000
+    }
+  ]
+}
+

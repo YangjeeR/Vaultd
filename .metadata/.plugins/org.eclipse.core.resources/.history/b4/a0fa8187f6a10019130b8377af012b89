@@ -1,0 +1,143 @@
+package ApiTest;
+
+import org.apache.commons.io.IOUtils;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.Reporter;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.LogStatus;
+
+import Guests.RegisterInputData;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import listeners.BaseClass;
+import listeners.ExtentTestManager;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.concurrent.TimeUnit;
+
+public class RegisterTest extends BaseClass{
+
+	//@Test(priority=1)
+	public void register1() throws IOException
+	{
+		FileInputStream fileInputStream = new FileInputStream(new File(System.getProperty("user.dir")+"\\src\\main\\java\\JsonFiles\\register.json"));
+		RestAssured.baseURI="http://stage.vaultd.com.au/v1";
+		Response response = 
+				given()
+					.log().all()
+					.contentType(ContentType.JSON)
+					.redirects()
+					.follow(false)
+					.body(IOUtils.toString(fileInputStream,"UTF-8"))
+				.when()   
+					.post("/user/register")
+				.then()
+					.contentType(ContentType.JSON)
+					.log().ifValidationFails()
+					.statusCode(303)
+					.and()
+					.log().all()
+					.and()
+					.extract()
+					.response();
+
+			System.out.println("Status Code is : " + response.getStatusCode());
+			System.out.println("Message : " + response.asString());
+			System.out.println("Time Taken is : " + response.getTimeIn(TimeUnit.MILLISECONDS) + " ms");
+			
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Response is: " +response.asString());
+			response.getStatusCode();
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Have verified the Status Code Successfully !!");
+			response.contentType();
+			ExtentTestManager.getTest().log(LogStatus.INFO, "Have verified the Response Body Successfully !!");	
+			
+	}
+	
+	
+
+	
+	@DataProvider(name="registerInputdata")
+	public Object[][] registerInputdata() throws IOException
+	{
+	
+	File src = new File("C:\\Users\\yangjee\\Desktop\\vaultd\\vaultData.xlsx");
+		FileInputStream fis = new FileInputStream(src);
+		   XSSFWorkbook wb=new XSSFWorkbook(fis);
+				   
+		    XSSFSheet sh1= wb.getSheet("register");
+		  	     	       
+			 int rowsCount = sh1.getLastRowNum();
+	            //System.out.println("Total Number of Rows: " + (rowsCount + 1));
+	            Object data[][]= new Object[4][5]; 
+	            for (int i = 1; i <= rowsCount; i++) {
+	               int  colCounts =  sh1.getRow(i).getLastCellNum();           
+	                //System.out.println("Total Number of Cols: " + colCounts);
+	                for (int j = 0; j < colCounts; j++) {
+	                    Cell cell = sh1.getRow(i).getCell(j);
+	              // System.out.println("[" + i + "," + j + "]=" + cell.getStringCellValue());
+	                    
+	                    data[i-1][j]=cell.getStringCellValue();	                	                
+	                }	 
+	                
+	            }
+				return data;
+			 
+	            
+	 
+	}
+	
+	@Test(dataProvider = "registerInputdata")
+	 public void register(String TestCase,String firstName,String lastName,String password,String email) throws IOException
+		{
+		 
+		 RegisterInputData registerInputData = new RegisterInputData(firstName,lastName,password,email);
+			RestAssured.baseURI="http://stage.vaultd.com.au/v1";
+			Response response = 
+					given()
+						.log().all()
+						.contentType(ContentType.JSON)
+						.redirects()
+						.follow(false)
+						.body(registerInputData)
+					.when()   
+						.post("/user/register")
+					.then()
+						.contentType(ContentType.JSON)
+						.log().ifValidationFails()
+						.statusCode(303)
+						.and()
+						.log().all()
+						.and()
+						.extract()
+						.response();
+			  
+				System.out.println("Status Code is : " + response.getStatusCode());
+				System.out.println("Message : " + response.asString());
+				System.out.println("Time Taken is : " + response.getTimeIn(TimeUnit.MILLISECONDS) + " ms");
+				
+
+				Reporter.log("Test Case Name is :" + TestCase,true);
+				ExtentTestManager.getTest().log(LogStatus.INFO, "Response is: " + response.asString());
+				response.getStatusCode();
+				ExtentTestManager.getTest().log(LogStatus.INFO, "Have verified the Status Code Successfully !!");
+				response.contentType();
+				ExtentTestManager.getTest().log(LogStatus.INFO, "Have verified the Response Body Successfully !!");	
+				
+		}
+
+}

@@ -1,0 +1,36 @@
+{
+  "informSend": [
+    {
+      "localId": "3455",
+      "relation": "sister",
+      "_id": "5d410f75c9909758e38ff87d",
+      "firstName": "Sunita",
+      "lastName": "Rai",
+      "middleName": "",
+      "email": "suni@gmail.com",
+      "nickName": "Suni",
+      "dob": "1987/10/10",
+      "address": "Narayanthan",
+      "isDeleted": false,
+      "contactNumber": "645474747",
+      "lastUpdatedAt": "123246"
+    }
+  ],
+  "informNotSend": [
+    {
+      "localId": "3455",
+      "relation": "sister",
+      "_id": "5d41269f9bdfe675adce9777",
+      "firstName": "Anita",
+      "lastName": "Rai",
+      "middleName": "",
+      "email": "anita@gmail.com",
+      "nickName": "Ani",
+      "dob": "1987/10/10",
+      "address": "Narayanthan",
+      "isDeleted": false,
+      "contactNumber": "645474747",
+      "lastUpdatedAt": "123246"
+    }
+  ]
+}

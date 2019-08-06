@@ -1,0 +1,11 @@
+[
+  {
+    "localId": "123",
+    "_id": "",
+    "isDeleted": false,
+    "lastUpdatedAt": 1223456789,
+    "families": {
+    "_id":"5d42773d37093203bdad4820"},
+    "executorType": "primary"
+  }
+]

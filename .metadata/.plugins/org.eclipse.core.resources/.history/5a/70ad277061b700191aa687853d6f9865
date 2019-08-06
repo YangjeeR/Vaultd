@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Testing" allow-return-values="true" parallel="tests">
+  <test name= "Emulator 1" verbose="2" >
+   <parameter name="runAs" value="grid"></parameter>
+   <parameter name="platform" value="mobile"></parameter>
+   <parameter name="runOn" value="grid"></parameter>
+   <packages>
+   <package name="src/main/java"></package>
+   </packages>
+  </test> 
+    <test name= "Emulator 1" verbose="2" >
+   <parameter name="runAs" value="grid"></parameter>
+   <parameter name="platform" value="mobile"></parameter>
+   <parameter name="runOn" value="grid"></parameter>
+   <packages>
+   <package name="src/main/java"></package>
+   </packages>
+  </test> 
+</suite> 
+            

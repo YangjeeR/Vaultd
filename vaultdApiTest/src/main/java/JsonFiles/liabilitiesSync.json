@@ -1,0 +1,71 @@
+{
+  "_id": "",
+  "localId": "123",
+  "isDeleted": false,
+  "lastUpdatedAt": 1223456789,
+  "mortgageDetails": [
+    {
+      "localId": "123",
+      "_id": "",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "bankName": "NMB",
+      "accountNumber": "1234yhmsgh",
+      "relatesTo": "Personal",
+      "approxValue": 6000000
+    }
+  ],
+  "personalLoanDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "bankName": "Nabil Bank",
+      "accountNumber": "agaga124",
+      "approxValue": 700000
+    }
+  ],
+  "creditCardDetails": [
+    {
+      "_id": "",
+      "localId": "456",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "issuerName": "Bakhat Rai",
+      "accountNumber": "67sss123sh",
+      "approxValue": 1000000
+    }
+  ],
+  "hecsDetails": [
+    {
+      "_id": "",
+      "localId": "567878",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "approxValue": 900000
+    }
+  ],
+  "debtDetails": [
+    {
+      "_id": "",
+      "localId": "12344",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "personName": "Sunita",
+      "approxValue": 699990
+    }
+  ],
+  "otherDetails": [
+    {
+      "_id": "",
+      "localId": "4567",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "title": "Main",
+      "description": "Furniture",
+      "personName": "Anita Rai",
+      "approxValue": 700000
+    }
+  ]
+}

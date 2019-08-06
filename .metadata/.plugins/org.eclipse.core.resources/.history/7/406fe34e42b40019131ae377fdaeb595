@@ -1,0 +1,25 @@
+package Petbook;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.given;
+import io.restassured.http.ContentType;
+
+public class API_Petbook {
+
+	   @Test
+	    public void LoginForm() {
+	        RestAssured.baseURI = "http://petbook.draftserver.com:5000/api-docs#/Guest/loginUser";
+	        given().urlEncodingEnabled(true)
+	            .param("userName", "pet1@yopmail.com")
+	            .param("password", "Yanzee#123")
+	            .param("deviceId", "123")
+	            .param("deviceType", "1245")
+	            .param("deviceToken", "1")
+	            .header("Accept", ContentType.JSON.getAcceptHeader())
+	            .post("/user/login")
+	            .then().statusCode(200);
+	    }
+	   
+}

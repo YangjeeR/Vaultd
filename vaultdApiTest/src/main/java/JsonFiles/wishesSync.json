@@ -1,0 +1,15 @@
+[{
+    "localId": "1234",
+    "_id": "",
+    "isDeleted": false,
+    "lastUpdatedAt": "1223456789",
+    "socialMediaControl": false,
+    "socialMediaControlFamily": {},
+    "organDonation": true,
+    "organDonationDetail": "HI all",
+    "donateBlood": true,
+    "donateBloodDetail": "blood detail",
+    "funeralDirection": "Burial",
+    "funeralDirectionDetail": "Make it white and pink"
+  }
+]

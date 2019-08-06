@@ -1,0 +1,71 @@
+{
+  "_id": "",
+  "localId": "123",
+  "isDeleted": false,
+  "lastUpdatedAt": 1223456789,
+  "mortgageDetails": [
+    {
+      "localId": "123",
+      "_id": "",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "bankName": "World Bank",
+      "accountNumber": "12345ageg",
+      "relatesTo": "Truck",
+      "approxValue": 0
+    }
+  ],
+  "personalLoanDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "bankName": "string",
+      "accountNumber": "string",
+      "approxValue": "string"
+    }
+  ],
+  "creditCardDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "issuerName": "string",
+      "accountNumber": "string",
+      "approxValue": 0
+    }
+  ],
+  "hecsDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "approxValue": 0
+    }
+  ],
+  "debtDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "personName": "string",
+      "approxValue": 0
+    }
+  ],
+  "otherDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "title": "string",
+      "description": "string",
+      "personName": "string",
+      "approxValue": 0
+    }
+  ]
+}

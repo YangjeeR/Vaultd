@@ -1,0 +1,11 @@
+[
+  {
+    "localId": "string",
+    "_id": "string",
+    "name": "string",
+    "abn": "string",
+    "address": "string",
+    "isDeleted": false,
+    "lastUpdatedAt": "string"
+  }
+]

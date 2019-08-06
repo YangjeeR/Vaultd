@@ -1,0 +1,14 @@
+package Modules;
+
+import org.testng.annotations.Test;
+
+public class sum {
+
+	Login obj=new Login();
+	
+	@Test
+	public void sum1()
+	{
+		obj.LoginTest(2, 3);
+	}
+}

@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\yangjee\AppData\Local\Temp\testng-eclipse--747859281\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 12 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="ForgotPassword">ForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="GetRefreshToken">GetRefreshToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="SendVerifyEmail({TestCaseName=Using invalid email, email=yangjee@})">SendVerifyEmail({TestCaseName=Using invalid email, email=yangjee@})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="SendVerifyEmail({TestCaseName=Using registered email, email=yangjee5@getnada.com})">SendVerifyEmail({TestCaseName=Using registered email, email=yangjee5@getnada.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="SendVerifyEmail({TestCaseName=Using non - registered email, email=yangjeerai@yopmail.com})">SendVerifyEmail({TestCaseName=Using non - registered email, email=yangjeerai@yopmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="SubsAvail">SubsAvail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="UpdateEmail">UpdateEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="changePassword">changePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using valid data, email=yangjee5@...)">registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using valid data, email=yangjee5@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="registerUser({firstName=Yangjee, lastName=Rai, password=yang, TestCaseName=Using invalid password, email=yangjee@...)">registerUser({firstName=Yangjee, lastName=Rai, password=yang, TestCaseName=Using invalid password, email=yangjee@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using invalid email, email=yangje...)">registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using invalid email, email=yangje...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using already registered email, e...)">registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using already registered email, e...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="GenerateWill">GenerateWill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="GetPageContent">GetPageContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="GetSubscription">GetSubscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="GetSyncData">GetSyncData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="GetUsers">GetUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="GetVerifyCode({TestCaseName=Using registered email, email=yangjee6})">GetVerifyCode({TestCaseName=Using registered email, email=yangjee6})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="LogOut">LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="ProvideFeedback">ProvideFeedback</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="PushNotify">PushNotify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="SyncAddUpdateAssets">SyncAddUpdateAssets</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="SyncAddUpdateWitnesses">SyncAddUpdateWitnesses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="UploadWillFile">UploadWillFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="VerifyEmailLink({TestCaseName=Using registered email, email=yangjee5})">VerifyEmailLink({TestCaseName=Using registered email, email=yangjee5})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="newEmailVerify">newEmailVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="ApiTest.APITest" hash-for-method="updateProfile">updateProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ApiTest.APITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForgotPassword">
+                  </a> <!-- ForgotPassword -->
+                  <span class="method-name">ForgotPassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;310&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.ForgotPassword(APITest.java:264)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetRefreshToken">
+                  </a> <!-- GetRefreshToken -->
+                  <span class="method-name">GetRefreshToken</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.GetRefreshToken(APITest.java:354)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendVerifyEmail({TestCaseName=Using invalid email, email=yangjee@})">
+                  </a> <!-- SendVerifyEmail({TestCaseName=Using invalid email, email=yangjee@}) -->
+                  <span class="method-name">SendVerifyEmail</span>
+                  <span class="parameters">({TestCaseName=Using invalid email, email=yangjee@})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;422&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.SendVerifyEmail(APITest.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendVerifyEmail({TestCaseName=Using registered email, email=yangjee5@getnada.com})">
+                  </a> <!-- SendVerifyEmail({TestCaseName=Using registered email, email=yangjee5@getnada.com}) -->
+                  <span class="method-name">SendVerifyEmail</span>
+                  <span class="parameters">({TestCaseName=Using registered email, email=yangjee5@getnada.com})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;409&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.SendVerifyEmail(APITest.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SendVerifyEmail({TestCaseName=Using non - registered email, email=yangjeerai@yopmail.com})">
+                  </a> <!-- SendVerifyEmail({TestCaseName=Using non - registered email, email=yangjeerai@yopmail.com}) -->
+                  <span class="method-name">SendVerifyEmail</span>
+                  <span class="parameters">({TestCaseName=Using non - registered email, email=yangjeerai@yopmail.com})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;449&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.SendVerifyEmail(APITest.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubsAvail">
+                  </a> <!-- SubsAvail -->
+                  <span class="method-name">SubsAvail</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;222&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.GeneratedMethodAccessor185.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.SubsAvail(APITest.java:732)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateEmail">
+                  </a> <!-- UpdateEmail -->
+                  <span class="method-name">UpdateEmail</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;422&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.UpdateEmail(APITest.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePassword">
+                  </a> <!-- changePassword -->
+                  <span class="method-name">changePassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;422&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.changePassword(APITest.java:414)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using valid data, email=yangjee5@...)">
+                  </a> <!-- registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using valid data, email=yangjee5@...) -->
+                  <span class="method-name">registerUser</span>
+                  <span class="parameters">({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using valid data, email=yangjee5@getnada.com})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;409&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:156)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.registerUser(APITest.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser({firstName=Yangjee, lastName=Rai, password=yang, TestCaseName=Using invalid password, email=yangjee@...)">
+                  </a> <!-- registerUser({firstName=Yangjee, lastName=Rai, password=yang, TestCaseName=Using invalid password, email=yangjee@...) -->
+                  <span class="method-name">registerUser</span>
+                  <span class="parameters">({firstName=Yangjee, lastName=Rai, password=yang, TestCaseName=Using invalid password, email=yangjee@yopmail.com})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;422&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.registerUser(APITest.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using invalid email, email=yangje...)">
+                  </a> <!-- registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using invalid email, email=yangje...) -->
+                  <span class="method-name">registerUser</span>
+                  <span class="parameters">({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using invalid email, email=yangjee@})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;422&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.registerUser(APITest.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using already registered email, e...)">
+                  </a> <!-- registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using already registered email, e...) -->
+                  <span class="method-name">registerUser</span>
+                  <span class="parameters">({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using already registered email, email=yangjee@yopmail.com})</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;302&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:492)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:101)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at ApiTest.APITest.registerUser(APITest.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ApiTest.APITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GenerateWill">
+                  </a> <!-- GenerateWill -->
+                  <span class="method-name">GenerateWill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetPageContent">
+                  </a> <!-- GetPageContent -->
+                  <span class="method-name">GetPageContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetSubscription">
+                  </a> <!-- GetSubscription -->
+                  <span class="method-name">GetSubscription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetSyncData">
+                  </a> <!-- GetSyncData -->
+                  <span class="method-name">GetSyncData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetUsers">
+                  </a> <!-- GetUsers -->
+                  <span class="method-name">GetUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetVerifyCode({TestCaseName=Using registered email, email=yangjee6})">
+                  </a> <!-- GetVerifyCode({TestCaseName=Using registered email, email=yangjee6}) -->
+                  <span class="method-name">GetVerifyCode</span>
+                  <span class="parameters">({TestCaseName=Using registered email, email=yangjee6})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogOut">
+                  </a> <!-- LogOut -->
+                  <span class="method-name">LogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProvideFeedback">
+                  </a> <!-- ProvideFeedback -->
+                  <span class="method-name">ProvideFeedback</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PushNotify">
+                  </a> <!-- PushNotify -->
+                  <span class="method-name">PushNotify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SyncAddUpdateAssets">
+                  </a> <!-- SyncAddUpdateAssets -->
+                  <span class="method-name">SyncAddUpdateAssets</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SyncAddUpdateWitnesses">
+                  </a> <!-- SyncAddUpdateWitnesses -->
+                  <span class="method-name">SyncAddUpdateWitnesses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadWillFile">
+                  </a> <!-- UploadWillFile -->
+                  <span class="method-name">UploadWillFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEmailLink({TestCaseName=Using registered email, email=yangjee5})">
+                  </a> <!-- VerifyEmailLink({TestCaseName=Using registered email, email=yangjee5}) -->
+                  <span class="method-name">VerifyEmailLink</span>
+                  <span class="parameters">({TestCaseName=Using registered email, email=yangjee5})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newEmailVerify">
+                  </a> <!-- newEmailVerify -->
+                  <span class="method-name">newEmailVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateProfile">
+                  </a> <!-- updateProfile -->
+                  <span class="method-name">updateProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\yangjee\AppData\Local\Temp\testng-eclipse--747859281\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ApiTest.APITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyEmailLink')
+data.setCell(0, 2, 'ApiTest.APITest')
+data.setCell(0, 3, 18721);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GetVerifyCode')
+data.setCell(1, 2, 'ApiTest.APITest')
+data.setCell(1, 3, 6074);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GetSyncData')
+data.setCell(2, 2, 'ApiTest.APITest')
+data.setCell(2, 3, 5990);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'registerUser')
+data.setCell(3, 2, 'ApiTest.APITest')
+data.setCell(3, 3, 5837);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Login')
+data.setCell(4, 2, 'ApiTest.APITest')
+data.setCell(4, 3, 1858);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'GenerateWill')
+data.setCell(5, 2, 'ApiTest.APITest')
+data.setCell(5, 3, 1277);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'UploadWillFile')
+data.setCell(6, 2, 'ApiTest.APITest')
+data.setCell(6, 3, 1198);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SubsAvail')
+data.setCell(7, 2, 'ApiTest.APITest')
+data.setCell(7, 3, 1136);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'registerUser')
+data.setCell(8, 2, 'ApiTest.APITest')
+data.setCell(8, 3, 812);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SyncAddUpdateAssets')
+data.setCell(9, 2, 'ApiTest.APITest')
+data.setCell(9, 3, 781);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LogOut')
+data.setCell(10, 2, 'ApiTest.APITest')
+data.setCell(10, 3, 667);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'GetPageContent')
+data.setCell(11, 2, 'ApiTest.APITest')
+data.setCell(11, 3, 652);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'PushNotify')
+data.setCell(12, 2, 'ApiTest.APITest')
+data.setCell(12, 3, 627);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'GetUsers')
+data.setCell(13, 2, 'ApiTest.APITest')
+data.setCell(13, 3, 602);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'registerUser')
+data.setCell(14, 2, 'ApiTest.APITest')
+data.setCell(14, 3, 584);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'UpdateEmail')
+data.setCell(15, 2, 'ApiTest.APITest')
+data.setCell(15, 3, 573);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'registerUser')
+data.setCell(16, 2, 'ApiTest.APITest')
+data.setCell(16, 3, 550);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SendVerifyEmail')
+data.setCell(17, 2, 'ApiTest.APITest')
+data.setCell(17, 3, 548);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'ProvideFeedback')
+data.setCell(18, 2, 'ApiTest.APITest')
+data.setCell(18, 3, 544);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'SendVerifyEmail')
+data.setCell(19, 2, 'ApiTest.APITest')
+data.setCell(19, 3, 541);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ForgotPassword')
+data.setCell(20, 2, 'ApiTest.APITest')
+data.setCell(20, 3, 539);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'SendVerifyEmail')
+data.setCell(21, 2, 'ApiTest.APITest')
+data.setCell(21, 3, 531);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'newEmailVerify')
+data.setCell(22, 2, 'ApiTest.APITest')
+data.setCell(22, 3, 528);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'GetSubscription')
+data.setCell(23, 2, 'ApiTest.APITest')
+data.setCell(23, 3, 523);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'GetRefreshToken')
+data.setCell(24, 2, 'ApiTest.APITest')
+data.setCell(24, 3, 523);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'SyncAddUpdateWitnesses')
+data.setCell(25, 2, 'ApiTest.APITest')
+data.setCell(25, 3, 519);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'changePassword')
+data.setCell(26, 2, 'ApiTest.APITest')
+data.setCell(26, 3, 516);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'updateProfile')
+data.setCell(27, 2, 'ApiTest.APITest')
+data.setCell(27, 3, 513);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">UploadWillFile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Witness updated successfully","data":null}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">updateProfile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Your email has been changed successfully.","data":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","isFirstLogin":false,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SyncAddUpdateWitnesses</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Witness updated successfully","data":null}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"success","data":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","isFirstLogin":false,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetSyncData</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"success","data":[{"localId":"BF3A9A92-C858-4337-9411-4E7ADE37D9CC","email":null,"lastName":"Rai","middleName":"","nickName":"","address":"Narayanthan","dob":"2019-08-01T00:00:00.000Z","contactNumber":"9843719653","lastUpdatedAt":1564636988,"isSynced":true,"status":true,"isDeleted":false,"_id":"5d42773d37093203bdad4820","user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"relation":"Father","firstName":"Bakhat","createdAt":"2019-08-01T05:23:09.178Z","updatedAt":"2019-08-01T05:23:09.178Z","__v":0}]}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":[{"localId":"9000","isDeleted":false,"isSynced":true,"lastUpdatedAt":1564458400,"_id":"5d427bf137093203bdad4835","user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"bankAccountDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","bankName":"WorldBank","accountNumber":"1234567acc","approxValue":100,"isDeleted":false,"_id":"5d427bf137093203bdad4836"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a8eede9dd0129e05df6f"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a91fde9dd0129e05df70"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a947de9dd0129e05df72"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a95bde9dd0129e05df75"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a96bde9dd0129e05df79"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a98bde9dd0129e05df7e"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a9a6de9dd0129e05df84"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a9b7de9dd0129e05df8a"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42a9d6de9dd0129e05df91"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05df99"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfa2"},{"isSynced":true,"lastUpdatedAt":1564649709,"localId":"FACDADB0-D7BF-4FC2-912F-8B1968AFB1E0","bankName":"World Bank","accountNumber":"Tvh 2334","approxValue":250000,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfac"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"5667","bankName":"WorldBank","accountNumber":"1234567acc","approxValue":100,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc1"}],"cryptoDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","coinName":"Bit Coin","exchangeName":"Anita Ra","ownedCoin":100,"approxValue":150,"isDeleted":false,"_id":"5d427bf137093203bdad4837"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42a91fde9dd0129e05df71"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42a948de9dd0129e05df73"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42a95cde9dd0129e05df76"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42a96bde9dd0129e05df7a"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42a98bde9dd0129e05df7f"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42a9a6de9dd0129e05df85"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42a9b7de9dd0129e05df8b"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42a9d6de9dd0129e05df92"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05df9a"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfa3"},{"isSynced":true,"lastUpdatedAt":1564649758,"localId":"0F119268-BDF9-4C6A-BF00-2081AA1F9F0E","coinName":"Bit Coin","exchangeName":"anita","ownedCoin":258,"approxValue":25800000,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfad"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"999","coinName":"Bit Coin","exchangeName":"Anita Ra","ownedCoin":100,"approxValue":150,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc2"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"999","coinName":"Bit Coin","exchangeName":"Anita Ra","ownedCoin":100,"approxValue":150,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfd6"}],"realPropertyDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","address":"Buddhanilkantha, KTM","approxValue":2500000,"isDeleted":false,"_id":"5d427bf137093203bdad4838"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42a948de9dd0129e05df74"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42a95cde9dd0129e05df77"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42a96bde9dd0129e05df7b"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42a98bde9dd0129e05df80"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42a9a6de9dd0129e05df86"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42a9b7de9dd0129e05df8c"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42a9d6de9dd0129e05df93"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05df9b"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfa4"},{"isSynced":true,"lastUpdatedAt":1564649799,"localId":"F3E8D2FE-CB8D-4E42-94C7-A9441C1A7C98","address":"Budhanilkantha","approxValue":250000000,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfae"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"4568","address":"Buddhanilkantha, KTM","approxValue":2500000,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc3"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"4568","address":"Buddhanilkantha, KTM","approxValue":2500000,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfd7"}],"sharesDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","companyName":"Firefly Services Ptv Ltd","numberOfShare":50,"asxCode":"QWd","approxValue":100000,"isDeleted":false,"_id":"5d427bf137093203bdad4839"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42a95cde9dd0129e05df78"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42a96bde9dd0129e05df7c"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42a98bde9dd0129e05df81"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42a9a6de9dd0129e05df87"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42a9b7de9dd0129e05df8d"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42a9d6de9dd0129e05df94"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05df9c"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfa5"},{"isSynced":true,"lastUpdatedAt":1564649819,"localId":"2E96A341-6260-4340-BF87-57AB78651206","companyName":"Firefly","numberOfShare":250,"asxCode":"Qwd","approxValue":5580000,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfaf"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"456","companyName":"Firefly Services Ptv Ltd","numberOfShare":50,"asxCode":"QWd","approxValue":100000,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc4"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"456","companyName":"Firefly Services Ptv Ltd","numberOfShare":50,"asxCode":"QWd","approxValue":100000,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfd8"}],"cashDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","approxStoredLocation":"Kumaripati, Lalitpur","approxValue":5000000,"isDeleted":false,"_id":"5d427bf137093203bdad483a"},{"isSynced":true,"lastUpdatedAt":1564649835,"localId":"28B1CC30-6475-4608-8D27-40DF7C6DC765","approxStoredLocation":"Tesr","approxValue":850000,"isDeleted":false,"_id":"5d42a96bde9dd0129e05df7d"},{"isSynced":true,"lastUpdatedAt":1564649835,"localId":"28B1CC30-6475-4608-8D27-40DF7C6DC765","approxStoredLocation":"Tesr","approxValue":850000,"isDeleted":false,"_id":"5d42a98bde9dd0129e05df82"},{"isSynced":true,"lastUpdatedAt":1564649835,"localId":"28B1CC30-6475-4608-8D27-40DF7C6DC765","approxStoredLocation":"Tesr","approxValue":850000,"isDeleted":false,"_id":"5d42a9a6de9dd0129e05df88"},{"isSynced":true,"lastUpdatedAt":1564649835,"localId":"28B1CC30-6475-4608-8D27-40DF7C6DC765","approxStoredLocation":"Tesr","approxValue":850000,"isDeleted":false,"_id":"5d42a9b7de9dd0129e05df8e"},{"isSynced":true,"lastUpdatedAt":1564649835,"localId":"28B1CC30-6475-4608-8D27-40DF7C6DC765","approxStoredLocation":"Tesr","approxValue":850000,"isDeleted":false,"_id":"5d42a9d6de9dd0129e05df95"},{"isSynced":true,"lastUpdatedAt":1564649835,"localId":"28B1CC30-6475-4608-8D27-40DF7C6DC765","approxStoredLocation":"Tesr","approxValue":850000,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05df9d"},{"isSynced":true,"lastUpdatedAt":1564649835,"localId":"28B1CC30-6475-4608-8D27-40DF7C6DC765","approxStoredLocation":"Tesr","approxValue":850000,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfa6"},{"isSynced":true,"lastUpdatedAt":1564649835,"localId":"28B1CC30-6475-4608-8D27-40DF7C6DC765","approxStoredLocation":"Tesr","approxValue":850000,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfb0"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"9099","approxStoredLocation":"Kumaripati, Lalitpur","approxValue":5000000,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc5"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"9099","approxStoredLocation":"Kumaripati, Lalitpur","approxValue":5000000,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfd9"}],"vehiclesDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","vehicleType":"Car","description":"Black","makeModel":"Ford","registrationNumber":"345awefgqq112","joinOwnerShip":false,"joinOwnerShipDetails":[{"localId":"123","email":"oqpratik@gmail.com","lastName":"Shrestha","middleName":"","nickName":"Pratik","address":"Thaiba","contactNumber":"9841151757","lastUpdatedAt":1223456789,"isSynced":true,"status":true,"isDeleted":false,"_id":"5d3fcedde497235031f411f5","relation":"Spouse","firstName":"Pratik","createdAt":"2019-07-30T05:00:13.769Z","updatedAt":"2019-07-30T05:00:13.769Z"}],"approxValue":6500000,"isDeleted":false,"_id":"5d427bf137093203bdad483b"},{"isSynced":true,"lastUpdatedAt":1564649867,"localId":"6420C689-0F11-4F18-84A1-254B471E712E","vehicleType":"Car","description":"","makeModel":"Tgv133","registrationNumber":"Tgcz14567","joinOwnerShip":true,"joinOwnerShipDetails":[],"approxValue":25000,"isDeleted":false,"_id":"5d42a98bde9dd0129e05df83"},{"isSynced":true,"lastUpdatedAt":1564649893,"localId":"6420C689-0F11-4F18-84A1-254B471E712E","vehicleType":"Car","description":"","makeModel":"Tgv133","registrationNumber":"Tgcz14567","joinOwnerShip":false,"joinOwnerShipDetails":[],"approxValue":25000,"isDeleted":false,"_id":"5d42a9a6de9dd0129e05df89"},{"isSynced":true,"lastUpdatedAt":1564649893,"localId":"6420C689-0F11-4F18-84A1-254B471E712E","vehicleType":"Car","description":"","makeModel":"Tgv133","registrationNumber":"Tgcz14567","joinOwnerShip":false,"joinOwnerShipDetails":[],"approxValue":25000,"isDeleted":false,"_id":"5d42a9b7de9dd0129e05df8f"},{"isSynced":true,"lastUpdatedAt":1564649893,"localId":"6420C689-0F11-4F18-84A1-254B471E712E","vehicleType":"Car","description":"","makeModel":"Tgv133","registrationNumber":"Tgcz14567","joinOwnerShip":false,"joinOwnerShipDetails":[],"approxValue":25000,"isDeleted":false,"_id":"5d42a9d6de9dd0129e05df96"},{"isSynced":true,"lastUpdatedAt":1564649893,"localId":"6420C689-0F11-4F18-84A1-254B471E712E","vehicleType":"Car","description":"","makeModel":"Tgv133","registrationNumber":"Tgcz14567","joinOwnerShip":false,"joinOwnerShipDetails":[],"approxValue":25000,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05df9e"},{"isSynced":true,"lastUpdatedAt":1564649893,"localId":"6420C689-0F11-4F18-84A1-254B471E712E","vehicleType":"Car","description":"","makeModel":"Tgv133","registrationNumber":"Tgcz14567","joinOwnerShip":false,"joinOwnerShipDetails":[],"approxValue":25000,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfa7"},{"isSynced":true,"lastUpdatedAt":1564649893,"localId":"6420C689-0F11-4F18-84A1-254B471E712E","vehicleType":"Car","description":"","makeModel":"Tgv133","registrationNumber":"Tgcz14567","joinOwnerShip":false,"joinOwnerShipDetails":[],"approxValue":25000,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfb1"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"344","vehicleType":"Car","description":"Black","makeModel":"Ford","registrationNumber":"345awefgqq112","joinOwnerShip":false,"joinOwnerShipDetails":[],"approxValue":6500000,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc6"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"344","vehicleType":"Car","description":"Black","makeModel":"Ford","registrationNumber":"345awefgqq112","joinOwnerShip":false,"joinOwnerShipDetails":[],"approxValue":6500000,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfda"}],"debtDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","personName":"Pratik Shrestha","approxValue":340000,"isDeleted":false,"_id":"5d427bf137093203bdad483c"},{"isSynced":true,"lastUpdatedAt":1564649910,"localId":"1857C403-B757-47FA-8614-6F4A593E1AEE","personName":"Bhub","approxValue":2580000,"isDeleted":false,"_id":"5d42a9b7de9dd0129e05df90"},{"isSynced":true,"lastUpdatedAt":1564649910,"localId":"1857C403-B757-47FA-8614-6F4A593E1AEE","personName":"Bhub","approxValue":2580000,"isDeleted":false,"_id":"5d42a9d6de9dd0129e05df97"},{"isSynced":true,"lastUpdatedAt":1564649910,"localId":"1857C403-B757-47FA-8614-6F4A593E1AEE","personName":"Bhub","approxValue":2580000,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05df9f"},{"isSynced":true,"lastUpdatedAt":1564649910,"localId":"1857C403-B757-47FA-8614-6F4A593E1AEE","personName":"Bhub","approxValue":2580000,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfa8"},{"isSynced":true,"lastUpdatedAt":1564649910,"localId":"1857C403-B757-47FA-8614-6F4A593E1AEE","personName":"Bhub","approxValue":2580000,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfb2"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"15523","personName":"Pratik Shrestha","approxValue":340000,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc7"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"15523","personName":"Pratik Shrestha","approxValue":340000,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfdb"}],"lifeInsuranceDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","name":"Sunita","isNominated":false,"nominationDetails":[null],"approxValue":0,"isDeleted":false,"_id":"5d427bf137093203bdad483d"},{"isSynced":true,"lastUpdatedAt":1564649941,"localId":"D4613D75-34CD-4E19-B402-9F66C8C73808","name":"Sunita","isNominated":false,"nominationDetails":[],"approxValue":25055,"isDeleted":false,"_id":"5d42a9d6de9dd0129e05df98"},{"isSynced":true,"lastUpdatedAt":1564649941,"localId":"D4613D75-34CD-4E19-B402-9F66C8C73808","name":"Sunita","isNominated":false,"nominationDetails":[],"approxValue":25055,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05dfa0"},{"isSynced":true,"lastUpdatedAt":1564649941,"localId":"D4613D75-34CD-4E19-B402-9F66C8C73808","name":"Sunita","isNominated":false,"nominationDetails":[],"approxValue":25055,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfa9"},{"isSynced":true,"lastUpdatedAt":1564649941,"localId":"D4613D75-34CD-4E19-B402-9F66C8C73808","name":"Sunita","isNominated":false,"nominationDetails":[],"approxValue":25055,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfb3"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"353","name":"Sunita","isNominated":false,"nominationDetails":[],"approxValue":0,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc8"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"353","name":"Sunita","isNominated":false,"nominationDetails":[],"approxValue":0,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfdc"}],"superannuationDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","superFundName":"Four sisters","isSuperNomination":false,"superNominationDetails":[null],"nominationBinding":"string","approxValue":0,"isDeleted":false,"_id":"5d427bf137093203bdad483e"},{"isSynced":true,"lastUpdatedAt":1564649998,"localId":"84439B11-5654-4B3E-953D-8F3A4BD890F3","superFundName":"Hhvv","isSuperNomination":false,"superNominationDetails":[],"nominationBinding":"2019-07-01T14:44:10.000Z","approxValue":0,"isDeleted":false,"_id":"5d42aa0ede9dd0129e05dfa1"},{"isSynced":true,"lastUpdatedAt":1564649998,"localId":"84439B11-5654-4B3E-953D-8F3A4BD890F3","superFundName":"Hhvv","isSuperNomination":false,"superNominationDetails":[],"nominationBinding":"2019-07-01T14:44:10.000Z","approxValue":0,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfaa"},{"isSynced":true,"lastUpdatedAt":1564649998,"localId":"84439B11-5654-4B3E-953D-8F3A4BD890F3","superFundName":"Hhvv","isSuperNomination":false,"superNominationDetails":[],"nominationBinding":"2019-07-01T14:44:10.000Z","approxValue":0,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfb4"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"145323","superFundName":"Four sisters","isSuperNomination":false,"superNominationDetails":[],"nominationBinding":"2019-07-01T14:44:10.000Z","approxValue":0,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfc9"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"145323","superFundName":"Four sisters","isSuperNomination":false,"superNominationDetails":[],"nominationBinding":"2019-07-01T14:44:10.000Z","approxValue":0,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfdd"}],"otherDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","title":"Flat","description":"Beautiful flat with terrace view.","approxValue":500000,"isDeleted":false,"_id":"5d427bf137093203bdad483f"},{"isSynced":true,"lastUpdatedAt":1564650011,"localId":"DF7FC130-C462-4C76-B582-4C151A5ABD56","title":"Vvb","description":"Ghh","approxValue":25000,"isDeleted":false,"_id":"5d42aa1cde9dd0129e05dfab"},{"isSynced":true,"lastUpdatedAt":1564650011,"localId":"DF7FC130-C462-4C76-B582-4C151A5ABD56","title":"Vvb","description":"Ghh","approxValue":25000,"isDeleted":false,"_id":"5d42abbdde9dd0129e05dfb5"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"4636","title":"Flat","description":"Beautiful flat with terrace view.","approxValue":500000,"isDeleted":false,"_id":"5d42ae81de9dd0129e05dfca"},{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"4636","title":"Flat","description":"Beautiful flat with terrace view.","approxValue":500000,"isDeleted":false,"_id":"5d42b035de9dd0129e05dfde"}],"createdAt":"2019-08-01T05:43:13.343Z","updatedAt":"2019-08-01T09:26:13.742Z","__v":0}]}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":[{"localId":"123","isDeleted":false,"isSynced":true,"lastUpdatedAt":1223456789,"_id":"5d42a8a3de9dd0129e05df68","user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"mortgageDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","bankName":"NMB","accountNumber":"1234yhmsgh","relatesTo":"Personal","approxValue":6000000,"isDeleted":false,"_id":"5d42a8a3de9dd0129e05df69"}],"personalLoanDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"123","bankName":"Nabil Bank","accountNumber":"agaga124","approxValue":700000,"isDeleted":false,"_id":"5d42a8a3de9dd0129e05df6a"}],"creditCardDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"456","issuerName":"Bakhat Rai","accountNumber":"67sss123sh","approxValue":1000000,"isDeleted":false,"_id":"5d42a8a3de9dd0129e05df6b"}],"debtDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"12344","personName":"Sunita","approxValue":699990,"isDeleted":false,"_id":"5d42a8a3de9dd0129e05df6c"}],"hecsDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"567878","approxValue":900000,"isDeleted":false,"_id":"5d42a8a3de9dd0129e05df6d"}],"otherDetails":[{"isSynced":true,"lastUpdatedAt":1223456789,"localId":"4567","title":"Main","description":"Furniture","personName":"Anita Rai","approxValue":700000,"isDeleted":false,"_id":"5d42a8a3de9dd0129e05df6e"}],"createdAt":"2019-08-01T08:53:55.614Z","updatedAt":"2019-08-01T08:53:55.637Z","__v":0}]}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":[{"families":{"localId":"BF3A9A92-C858-4337-9411-4E7ADE37D9CC","email":null,"lastName":"Rai","middleName":"","nickName":"","address":"Narayanthan","contactNumber":"9843719653","lastUpdatedAt":1564636988,"isSynced":true,"status":true,"isDeleted":false,"_id":"5d42773d37093203bdad4820","relation":"Father","firstName":"Bakhat","createdAt":"2019-08-01T05:23:09.178Z","updatedAt":"2019-08-01T05:23:09.178Z"},"isSynced":true,"executorType":"primary","isDeleted":false,"_id":"5d42797d37093203bdad482d","localId":"123","lastUpdatedAt":1223456789,"user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T05:32:45.329Z","updatedAt":"2019-08-01T05:32:45.329Z"},{"families":null,"isSynced":true,"executorType":"secondary","isDeleted":false,"_id":"5d42799037093203bdad482e","lastUpdatedAt":1564637515,"localId":"8B2F7000-B873-4625-AD69-FCE4A51F72B3","user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T05:33:04.016Z","updatedAt":"2019-08-01T05:33:04.016Z"},{"families":null,"isSynced":true,"executorType":"primary","isDeleted":false,"_id":"5d42799037093203bdad482f","lastUpdatedAt":1564637515,"localId":"7AEFCC72-412A-4301-8DEF-EA2D070AE00B","user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T05:33:04.016Z","updatedAt":"2019-08-01T05:33:04.016Z"},{"families":null,"isSynced":true,"executorType":"altSecondary","isDeleted":false,"_id":"5d42799037093203bdad4830","lastUpdatedAt":1564637515,"localId":"80B4BE2E-8064-4F3C-BE60-491FD51E90E8","user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T05:33:04.016Z","updatedAt":"2019-08-01T05:33:04.016Z"},{"families":{"localId":"BF3A9A92-C858-4337-9411-4E7ADE37D9CC","email":null,"lastName":"Rai","middleName":"","nickName":"","address":"Narayanthan","contactNumber":"9843719653","lastUpdatedAt":1564636988,"isSynced":true,"status":true,"isDeleted":false,"_id":"5d42773d37093203bdad4820","relation":"Father","firstName":"Bakhat","createdAt":"2019-08-01T05:23:09.178Z","updatedAt":"2019-08-01T05:23:09.178Z"},"isSynced":true,"executorType":"primary","isDeleted":false,"_id":"5d42a544de9dd0129e05df5b","localId":"123","lastUpdatedAt":1223456789,"user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T08:39:32.733Z","updatedAt":"2019-08-01T08:39:32.733Z"}]}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":[{"families":null,"isSynced":true,"guardianOf":"pet","isDeleted":false,"_id":"5d42a2f3de9dd0129e05df52","localId":"78127867-D2DA-4BFC-90B6-06BDDE5F9F3C","lastUpdatedAt":1564647996,"user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T08:29:39.025Z","updatedAt":"2019-08-01T08:29:39.025Z"},{"families":null,"isSynced":true,"guardianOf":"children","isDeleted":false,"_id":"5d42a2f3de9dd0129e05df53","lastUpdatedAt":1564647996,"localId":"397D7338-EC3F-45AE-910D-35464AF7168C","user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T08:29:39.026Z","updatedAt":"2019-08-01T08:29:39.026Z"},{"families":{"localId":"BF3A9A92-C858-4337-9411-4E7ADE37D9CC","email":null,"lastName":"Rai","middleName":"","nickName":"","address":"Narayanthan","dob":"2019-08-01T00:00:00.000Z","contactNumber":"9843719653","lastUpdatedAt":1564636988,"isSynced":true,"status":true,"isDeleted":false,"_id":"5d42773d37093203bdad4820","user":"5d4274e437093203bdad4815","relation":"Father","firstName":"Bakhat","createdAt":"2019-08-01T05:23:09.178Z","updatedAt":"2019-08-01T05:23:09.178Z","__v":0},"isSynced":true,"guardianOf":"children","isDeleted":false,"_id":"5d42a824de9dd0129e05df64","localId":"123","lastUpdatedAt":1223456789,"user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T08:51:48.599Z","updatedAt":"2019-08-01T08:51:48.599Z"}]}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":[{"socialMediaControl":false,"socialMediaControlFamily":null,"organDonation":true,"organDonationDetail":"Qqqq","donateBlood":true,"donateBloodDetail":"Reer","funeralDirection":"Cremate","funeralDirectionDetail":"Make it white and pink","isSynced":true,"isDeleted":false,"_id":"5d427a3d37093203bdad4834","localId":"1234","lastUpdatedAt":12345555,"user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T05:35:57.517Z","updatedAt":"2019-08-01T05:35:57.517Z"},{"socialMediaControl":false,"socialMediaControlFamily":null,"organDonation":true,"organDonationDetail":"HI all","donateBlood":true,"donateBloodDetail":"blood detail","funeralDirection":"Burial","funeralDirectionDetail":"Make it white and pink","isSynced":true,"isDeleted":false,"_id":"5d42a545de9dd0129e05df5c","localId":"1234","lastUpdatedAt":1223456789,"user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T08:39:33.432Z","updatedAt":"2019-08-01T08:39:33.432Z"}]}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":[{"localId":"123","name":"Blue cross","abn":"Hospital","address":"Tripureshwor","lastUpdatedAt":1223456789,"isSynced":true,"isDeleted":false,"_id":"5d42af09de9dd0129e05dfce","user":{"lastName":"Rai","middleName":"Shrestha","phoneNumber":"9843719653","mobileNumber":"9843719653","birthDate":"1989-12-29T00:00:00.000Z","pinNumber":null,"currentAddress":"Thaiba,Godawari","email":"yangjee5@getnada.com","emailVerifyToken":"62065690-b41b-11e9-b76b-d1da4d13123f","emailVerifyCode":"i5sOJm","isEmailVerified":true,"emailVerifiedAt":1564636550872,"isFirstLogin":false,"isPurchased":false,"passwordToken":null,"passwordTokenExpiry":null,"emailVerifyCodeExpiry":"1564738061","status":1,"deviceType":null,"deviceId":null,"deviceToken":null,"_id":"5d4274e437093203bdad4815","firstName":"Yangjee","password":"$2a$10$dS8sluMSxYkVegpRXevSDubR/q51/.xgP/Y1z/RXOD1XT0OeQzYme","createdAt":"2019-08-01T05:13:08.083Z","updatedAt":"2019-08-01T09:27:41.064Z","__v":0,"fullName":"Yangjee Rai","id":"5d4274e437093203bdad4815"},"__v":0,"createdAt":"2019-08-01T09:21:13.135Z","updatedAt":"2019-08-01T09:21:13.135Z"}]}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":[{"_id":"5d42af09de9dd0129e05dfcf","localId":"123","createdAt":"2019-08-01T09:21:13.737Z","lastUpdatedAt":1564651423,"beneficiaryType":"percentage","selectedBeneficiaryType":"family","charity":null,"family":{"_id":"5d41269f9bdfe675adce9777","localId":"8F4786C4-70E6-4522-8D5B-9E65F5D53596","email":null,"lastName":"Rai","middleName":"","nickName":"","address":"Narayanthan","dob":"2019-07-29T00:00:00.000Z","contactNumber":"9802583588","lastUpdatedAt":1564550814,"isSynced":true,"status":true,"isDeleted":false,"user":"5d3fb9fbe497235031f411c7","relation":"Sister","firstName":"Himsikha","createdAt":"2019-07-31T05:26:55.293Z","updatedAt":"2019-07-31T05:26:55.293Z","__v":0},"age":8,"assetType":"","givenTo":"children","asset":{"joinOwnerShipDetails":[],"superNominationDetails":[]},"percentage":10,"isDeleted":true,"isSynced":true,"givenDetail":[{"percentage":56,"_id":"5d42af09de9dd0129e05dfd0","family":{"_id":"5d3fcedde497235031f411f5","localId":"123","email":"oqpratik@gmail.com","lastName":"Shrestha","middleName":"","nickName":"Pratik","address":"Thaiba","dob":"2019-01-24T00:00:00.000Z","contactNumber":"9841151757","lastUpdatedAt":1223456789,"isSynced":true,"status":true,"isDeleted":false,"user":"5d3fb9fbe497235031f411c7","relation":"Spouse","firstName":"Pratik","createdAt":"2019-07-30T05:00:13.769Z","updatedAt":"2019-07-30T05:00:13.769Z","__v":0},"localId":"1235"}]},{"_id":"5d42af9ade9dd0129e05dfd1","localId":"E5EA878E-0175-4BF1-A404-67328123F722","createdAt":"2019-08-01T09:23:38.616Z","lastUpdatedAt":1564651418,"beneficiaryType":"percentage","selectedBeneficiaryType":"family","charity":null,"family":{"_id":"5d41269f9bdfe675adce9777","localId":"8F4786C4-70E6-4522-8D5B-9E65F5D53596","email":null,"lastName":"Rai","middleName":"","nickName":"","address":"Narayanthan","dob":"2019-07-29T00:00:00.000Z","contactNumber":"9802583588","lastUpdatedAt":1564550814,"isSynced":true,"status":true,"isDeleted":false,"user":"5d3fb9fbe497235031f411c7","relation":"Sister","firstName":"Himsikha","createdAt":"2019-07-31T05:26:55.293Z","updatedAt":"2019-07-31T05:26:55.293Z","__v":0},"age":18,"assetType":"","givenTo":"children","asset":{"joinOwnerShipDetails":[],"superNominationDetails":[]},"percentage":32,"isDeleted":false,"isSynced":true,"givenDetail":[]},{"_id":"5d42afbfde9dd0129e05dfd2","localId":"0FA3F43D-90E6-4BA3-90DC-A39E46F7A344","createdAt":"2019-08-01T09:24:15.586Z","lastUpdatedAt":1564651455,"beneficiaryType":"percentage","selectedBeneficiaryType":"charity","charity":{"_id":"5d42af09de9dd0129e05dfce","localId":"123","name":"Blue cross","abn":"Hospital","address":"Tripureshwor","lastUpdatedAt":1223456789,"isSynced":true,"isDeleted":false,"user":"5d4274e437093203bdad4815","__v":0,"createdAt":"2019-08-01T09:21:13.135Z","updatedAt":"2019-08-01T09:21:13.135Z"},"family":null,"age":0,"assetType":"","givenTo":"","asset":{"joinOwnerShipDetails":[],"superNominationDetails":[]},"percentage":48,"isDeleted":false,"isSynced":true,"givenDetail":[]}]}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":{}}</span>
+                <span class="reporter-method-output">Response is: {"message":"success","data":[]}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">PushNotify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Notification has been sent."}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SyncAddUpdateAssets</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Assets updated successfully","data":{}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetUsers</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Hello Admin, How are you Man!!!!"}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetPageContent</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"success","data":{"content":"<p>Electronic Business Pearls Australia (ebPearls) is committed to providing you with the best possible web and mobile development experience. ebPearls is bound by the Privacy Act 1988 (Crh), which sets out a number of principles concerning the privacy of our customers.</p><h3>Collection of your personal information</h3><p>There are many aspects of the site which can be viewed without providing personal information, however, to get a quote or to contact us you are required to submit personally identifiable information.</p><h3>Sharing of your personal information</h3><p>Your personal information will not be shared with other ogrnisation unless there is a need for collaboration. We would ask you for your permission before we share this information. ebPearls takes reasonable steps to ensure that these organisations are bound by confidentiality and privacy obligations in relation to the protection of your personal information.</p><h3>Use of your personal information</h3><p>For each visitor to reach the site, we expressively collect the following non-personally identifiable information, including but not limited to browser type, version and language, operating system, pages viewed while browsing the Site, page access times and referring website address. This collected information is used solely internally for the purpose of gauging visitor traffic, trends and delivering personalized content to you while you are at this Site.</p><p>From time to time, we may use customer information for new, unanticipated uses not previously disclosed in our privacy notice. If our information practices change at some time in the future we will use for these new purposes only, data collected from the time of the policy change forward will adhere to our updated practices.</p><h3>Changes to this Privacy Policy</h3><p>ebPearls reserves the right to make amendments to this Privacy Policy at any time. If you have objections to the Privacy Policy, you should not access or use the Site.</p><h3>Accessing Your Personal Information</h3><p>You have a right to access your personal information, subject to exceptions allowed by law. If you would like to do so, please let us know. You may be required to put your request in writing for security reasons. ebPearls reserves the right to charge a fee for searching for, and providing access to, your information on a per request basis.</p><h3>Cookies</h3><p>Cookies are small text files that are placed on your computer’s hard drive through your web browser when you visit any web site. They are widely used to make web sites work, or work more efficiently, as well as to provide information to the owners of the site.</p><p>You can manually disable cookies at any time – check your browser’s ‘Help’ to find out how. This will not affect your ability to view the site.</p><p>Although your browser software enables you to disable cookies, this will not affect your ability to view the site. We recommend that you allow the use of cookies in order to take advantage of the features of our website that rely on their use. You can still use this web site even if you choose to disable cookies.</p><h3>Contacting Us</h3><p>If you’d like to discuss our privacy policy, or if you have any questions regarding your privacy while visiting our website, do not hesitate to <a href=\"https://ebpearls.com.au/contact\">contact us.</a></p>","_id":"5cde9ec2aa43255eb4ed119c","title":"Privacy Policy"}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">newEmailVerify</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"New Email Verification Code is send to your email.","data":{}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GenerateWill</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Will Generated Successfully","data":{}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LogOut</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"You have been logout successfully.","data":{}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetSubscription</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Ok","data":{"subscription_type":"vaultd_monthly_subscription","expiry_date":null,"is_used":false,"cancellation_date":null}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ProvideFeedback</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Thank you for your feedback.","data":{}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">changePassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"New Password must be alphanumeric and minimum 8 character."}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ForgotPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"We are unable to find any account with this email.","data":{}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GetRefreshToken</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":" Unauthorized ","data":{}}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SubsAvail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Invalid receipt."}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SendVerifyEmail({TestCaseName=Using invalid email, email=yangjee@})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"Email must be a valid email."}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SendVerifyEmail({TestCaseName=Using registered email, email=yangjee5@getnada.com})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"ALREADY_ACTIVE"}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SendVerifyEmail({TestCaseName=Using non - registered email, email=yangjeerai@yopmail.com})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"NO_EMAIL_FOUND"}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">UpdateEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response is: {"message":"emailVerifyCode is not allowed."}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ApiTest.APITest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.registerUser(java.util.Map) throws java.io.IOException)</span>
+                <span class="method-start">1110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using valid data, email=yangjee5@...)</span>
+                <span class="method-start">1365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=registerUser status=FAILURE method=APITest.registerUser(java.util.Map)[pri:1, insta...)</span>
+                <span class="method-start">7227 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.registerUser(java.util.Map) throws java.io.IOException)</span>
+                <span class="method-start">7820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using invalid email, email=yangje...)</span>
+                <span class="method-start">7821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=registerUser status=FAILURE method=APITest.registerUser(java.util.Map)[pri:1, insta...)</span>
+                <span class="method-start">8375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.registerUser(java.util.Map) throws java.io.IOException)</span>
+                <span class="method-start">8527 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registerUser({firstName=Yangjee, lastName=Rai, password=yang, TestCaseName=Using invalid password, email=yangjee@...)</span>
+                <span class="method-start">8527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=registerUser status=FAILURE method=APITest.registerUser(java.util.Map)[pri:1, insta...)</span>
+                <span class="method-start">9116 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.registerUser(java.util.Map) throws java.io.IOException)</span>
+                <span class="method-start">9219 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registerUser({firstName=Yangjee, lastName=Rai, password=12345678a, TestCaseName=Using already registered email, e...)</span>
+                <span class="method-start">9219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=registerUser status=FAILURE method=APITest.registerUser(java.util.Map)[pri:1, insta...)</span>
+                <span class="method-start">10036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.SendVerifyEmail(java.util.Map) throws java.io.IOException)</span>
+                <span class="method-start">10197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SendVerifyEmail({TestCaseName=Using registered email, email=yangjee5@getnada.com})</span>
+                <span class="method-start">10197 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SendVerifyEmail status=FAILURE method=APITest.SendVerifyEmail(java.util.Map)[pri:2,...)</span>
+                <span class="method-start">10744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.SendVerifyEmail(java.util.Map) throws java.io.IOException)</span>
+                <span class="method-start">10887 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SendVerifyEmail({TestCaseName=Using invalid email, email=yangjee@})</span>
+                <span class="method-start">10887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SendVerifyEmail status=FAILURE method=APITest.SendVerifyEmail(java.util.Map)[pri:2,...)</span>
+                <span class="method-start">11440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.SendVerifyEmail(java.util.Map) throws java.io.IOException)</span>
+                <span class="method-start">11528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SendVerifyEmail({TestCaseName=Using non - registered email, email=yangjeerai@yopmail.com})</span>
+                <span class="method-start">11528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SendVerifyEmail status=FAILURE method=APITest.SendVerifyEmail(java.util.Map)[pri:2,...)</span>
+                <span class="method-start">12061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.VerifyEmailLink(java.util.Map))</span>
+                <span class="method-start">12179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyEmailLink({TestCaseName=Using registered email, email=yangjee5})</span>
+                <span class="method-start">12180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=VerifyEmailLink status=SUCCESS method=APITest.VerifyEmailLink(java.util.Map)[pri:3,...)</span>
+                <span class="method-start">30903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.Login() throws java.io.IOException)</span>
+                <span class="method-start">31022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">31022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Login status=SUCCESS method=APITest.Login()[pri:4, instance:ApiTest.APITest@ed9d034...)</span>
+                <span class="method-start">32881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.ForgotPassword() throws java.io.IOException)</span>
+                <span class="method-start">32946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ForgotPassword</span>
+                <span class="method-start">32947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ForgotPassword status=FAILURE method=APITest.ForgotPassword()[pri:5, instance:ApiTe...)</span>
+                <span class="method-start">33489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.GetPageContent() throws java.io.IOException)</span>
+                <span class="method-start">33578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetPageContent</span>
+                <span class="method-start">33578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetPageContent status=SUCCESS method=APITest.GetPageContent()[pri:6, instance:ApiTe...)</span>
+                <span class="method-start">34231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.GetRefreshToken() throws java.io.IOException)</span>
+                <span class="method-start">34321 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">GetRefreshToken</span>
+                <span class="method-start">34322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetRefreshToken status=FAILURE method=APITest.GetRefreshToken()[pri:7, instance:Api...)</span>
+                <span class="method-start">34847 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.updateProfile() throws java.io.IOException)</span>
+                <span class="method-start">34924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateProfile</span>
+                <span class="method-start">34924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateProfile status=SUCCESS method=APITest.updateProfile()[pri:8, instance:ApiTest...)</span>
+                <span class="method-start">35439 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.changePassword() throws java.io.IOException)</span>
+                <span class="method-start">35528 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changePassword</span>
+                <span class="method-start">35528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=changePassword status=FAILURE method=APITest.changePassword()[pri:9, instance:ApiTe...)</span>
+                <span class="method-start">36047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.newEmailVerify() throws java.io.IOException)</span>
+                <span class="method-start">36132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newEmailVerify</span>
+                <span class="method-start">36132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=newEmailVerify status=SUCCESS method=APITest.newEmailVerify()[pri:10, instance:ApiT...)</span>
+                <span class="method-start">36661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.GetVerifyCode(java.util.Map))</span>
+                <span class="method-start">36802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetVerifyCode({TestCaseName=Using registered email, email=yangjee6})</span>
+                <span class="method-start">36803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetVerifyCode status=SUCCESS method=APITest.GetVerifyCode(java.util.Map)[pri:11, in...)</span>
+                <span class="method-start">42878 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.UpdateEmail() throws java.io.IOException)</span>
+                <span class="method-start">42986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UpdateEmail</span>
+                <span class="method-start">42986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=UpdateEmail status=FAILURE method=APITest.UpdateEmail()[pri:12, instance:ApiTest.AP...)</span>
+                <span class="method-start">43561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.LogOut() throws java.io.IOException)</span>
+                <span class="method-start">43703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogOut</span>
+                <span class="method-start">43703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=LogOut status=SUCCESS method=APITest.LogOut()[pri:13, instance:ApiTest.APITest@ed9d...)</span>
+                <span class="method-start">44372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.GetUsers() throws java.io.IOException)</span>
+                <span class="method-start">44562 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetUsers</span>
+                <span class="method-start">44563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetUsers status=SUCCESS method=APITest.GetUsers()[pri:14, instance:ApiTest.APITest@...)</span>
+                <span class="method-start">45166 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.ProvideFeedback() throws java.io.IOException)</span>
+                <span class="method-start">45402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProvideFeedback</span>
+                <span class="method-start">45402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ProvideFeedback status=SUCCESS method=APITest.ProvideFeedback()[pri:15, instance:Ap...)</span>
+                <span class="method-start">45947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.PushNotify() throws java.io.IOException)</span>
+                <span class="method-start">46064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PushNotify</span>
+                <span class="method-start">46065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=PushNotify status=SUCCESS method=APITest.PushNotify()[pri:16, instance:ApiTest.APIT...)</span>
+                <span class="method-start">46693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.GetSubscription() throws java.io.IOException)</span>
+                <span class="method-start">46811 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetSubscription</span>
+                <span class="method-start">46812 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetSubscription status=SUCCESS method=APITest.GetSubscription()[pri:17, instance:Ap...)</span>
+                <span class="method-start">47336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.SubsAvail() throws java.io.IOException)</span>
+                <span class="method-start">47412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SubsAvail</span>
+                <span class="method-start">47412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SubsAvail status=FAILURE method=APITest.SubsAvail()[pri:18, instance:ApiTest.APITes...)</span>
+                <span class="method-start">48550 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.GetSyncData() throws java.io.IOException)</span>
+                <span class="method-start">48662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetSyncData</span>
+                <span class="method-start">48663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GetSyncData status=SUCCESS method=APITest.GetSyncData()[pri:19, instance:ApiTest.AP...)</span>
+                <span class="method-start">54654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.SyncAddUpdateAssets() throws java.io.IOException)</span>
+                <span class="method-start">54727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SyncAddUpdateAssets</span>
+                <span class="method-start">54727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SyncAddUpdateAssets status=SUCCESS method=APITest.SyncAddUpdateAssets()[pri:21, ins...)</span>
+                <span class="method-start">55509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.SyncAddUpdateWitnesses() throws java.io.IOException)</span>
+                <span class="method-start">55591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SyncAddUpdateWitnesses</span>
+                <span class="method-start">55592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=SyncAddUpdateWitnesses status=SUCCESS method=APITest.SyncAddUpdateWitnesses()[pri:2...)</span>
+                <span class="method-start">56112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.UploadWillFile() throws java.io.IOException)</span>
+                <span class="method-start">56201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UploadWillFile</span>
+                <span class="method-start">56201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=UploadWillFile status=SUCCESS method=APITest.UploadWillFile()[pri:29, instance:ApiT...)</span>
+                <span class="method-start">57400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void ApiTest.APITest.GenerateWill() throws java.io.IOException)</span>
+                <span class="method-start">57493 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GenerateWill</span>
+                <span class="method-start">57494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GenerateWill status=SUCCESS method=APITest.GenerateWill()[pri:30, instance:ApiTest....)</span>
+                <span class="method-start">58772 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

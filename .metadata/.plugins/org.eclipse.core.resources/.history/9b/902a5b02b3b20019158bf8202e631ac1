@@ -1,0 +1,32 @@
+{
+  "localId": "string",
+  "isDeleted": false,
+  "lastUpdatedAt": 1000000,
+  "testatorDetail": {
+    "localId": "string",
+    "isDeleted": false,
+    "firstName": "string",
+    "middleName": "string",
+    "lastName": "string"
+  },
+  "firstWitnessDetail": {
+    "localId": "string",
+    "isDeleted": false,
+    "firstName": "string",
+    "lastName": "string",
+    "middleName": "string",
+    "phone": "string",
+    "email": "string",
+    "address": "string"
+  },
+  "secondWitnessDetail": {
+    "localId": "string",
+    "isDeleted": false,
+    "firstName": "string",
+    "lastName": "string",
+    "middleName": "string",
+    "phone": "string",
+    "email": "string",
+    "address": "string"
+  }
+}

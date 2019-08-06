@@ -1,0 +1,18 @@
+package Modules;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+
+public class test {
+	
+	AppiumDriver<MobileElement> driver;
+
+	@Test
+	public void test1()
+	{
+		driver.findElement(By.xpath("//android.widget.Button[@text='Sign up']")).click();
+	}
+}

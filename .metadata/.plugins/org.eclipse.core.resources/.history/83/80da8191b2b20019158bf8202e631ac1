@@ -1,0 +1,24 @@
+[
+  {
+    "localId": "string",
+    "_id": "string",
+    "isDeleted": false,
+    "lastUpdatedAt": "string",
+    "beneficiaryType": "string",
+    "selectedBeneficiaryType": "string",
+    "family": {},
+    "age": 0,
+    "givenDetail": [
+      {
+        "family": {},
+        "localId": "string",
+        "percentage": "string"
+      }
+    ],
+    "givenTo": "string",
+    "charity": {},
+    "assetType": "string",
+    "asset": {},
+    "percentage": 0
+  }
+]

@@ -1,0 +1,150 @@
+{
+  "_id": "",
+  "localId": "13588B0C-3AB4-4161-A7DA-9ECE004B4880",
+  "isDeleted": false,
+  "lastUpdatedAt": 1564458400,
+  "bankAccountDetails": [
+    {
+      "localId": "13588B0C-3AB4-4161-A7DA-9ECE004B4880",
+      "_id": "",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "bankName": "WorldBank",
+      "accountNumber": "1234567acc",
+      "approxValue": 100
+    }
+  ],
+  "cryptoDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "coinName": "Bit Coin",
+      "exchangeName": "Anita Ra",
+      "ownedCoin": 100,
+      "approxValue":150
+    }
+  ],
+  "realPropertyDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "address": "Buddhanilkantha, KTM",
+      "approxValue": 2500000
+    }
+  ],
+  "sharesDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "companyName": "Firefly Services Ptv Ltd",
+      "numberOfShare":50,
+      "asxCode": "QWd",
+      "approxValue": 100000
+    }
+  ],
+  "cashDetails": [
+    {
+      "_id": "",
+      "localId": "123",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "approxStoredLocation": "Kumaripati, Lalitpur",
+      "approxValue": 0
+    }
+  ],
+  "vehiclesDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "vehicleType": "string",
+      "description": "string",
+      "makeModel": "string",
+      "registrationNumber": "string",
+      "joinOwnerShip": true,
+      "joinOwnerShipDetails": [
+        {
+          "_id": "string",
+          "families": "string",
+          "isDeleted": false
+        }
+      ],
+      "joinOwnerShipFamilyIds": [
+        null
+      ],
+      "approxValue": 0
+    }
+  ],
+  "debtDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "personName": "string",
+      "approxValue": 0
+    }
+  ],
+  "lifeInsuranceDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "isNominated": false,
+      "name": "string",
+      "nominationIds": [
+        null
+      ],
+      "nominationDetails": [
+        {
+          "_id": "string",
+          "families": "string",
+          "isDeleted": false
+        }
+      ],
+      "approxValue": 0
+    }
+  ],
+  "superannuationDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "superFundName": "string",
+      "isSuperNomination": false,
+      "superNominationDetails": [
+        {
+          "_id": "string",
+          "families": "string",
+          "isDeleted": false
+        }
+      ],
+      "superNominationIds": [
+        null
+      ],
+      "nominationBinding": "string",
+      "approxValue": 0
+    }
+  ],
+  "otherDetails": [
+    {
+      "_id": "string",
+      "localId": "string",
+      "isDeleted": false,
+      "lastUpdatedAt": 1223456789,
+      "title": "string",
+      "description": "string",
+      "approxValue": 0
+    }
+  ]
+}
+

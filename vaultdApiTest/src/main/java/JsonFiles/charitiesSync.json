@@ -1,0 +1,11 @@
+[
+  {
+    "localId": "123",
+    "_id": "",
+    "name": "Blue cross",
+    "abn": "Hospital",
+    "address": "Tripureshwor",
+    "isDeleted": false,
+    "lastUpdatedAt": "1223456789"
+  }
+]

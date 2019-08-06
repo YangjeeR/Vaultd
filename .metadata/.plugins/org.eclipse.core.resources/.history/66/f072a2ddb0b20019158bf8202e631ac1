@@ -1,0 +1,11 @@
+[
+  {
+    "localId": "string",
+    "_id": "string",
+    "isDeleted": false,
+    "lastUpdatedAt": 1223456789,
+    "families": {},
+    "familyId": "string",
+    "executorType": "string"
+  }
+]
