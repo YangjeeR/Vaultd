@@ -11,11 +11,11 @@ import Listeners.BaseClass;
 
 public class SignUp extends BaseClass {
 	
-	WebDriver webdriver;
+	WebDriver webdriver=null;
 	Elements elementPath=new Elements();
 	Login loginObj=new Login();
 
-
+	String email="yangjee15";
 	
 	@Test
 	public void Signup() 
@@ -30,7 +30,7 @@ public class SignUp extends BaseClass {
 		//Enter data and click sign up
 		SetText(elementPath.fname,"Yangjee");
 		SetText(elementPath.lname,"Rai");
-		SetText(elementPath.email,"yangjee8@getnada.com");
+		SetText(elementPath.email,email+"@getnada.com");
 		SetText(elementPath.pwd,"password1");
 		ClickBtn(elementPath.dob); 
 		ClickBtn(elementPath.date); 
@@ -50,6 +50,7 @@ public class SignUp extends BaseClass {
 			ClickBtn(elementPath.ok1); 
 			Thread.sleep(5000);
 			VerifyEmailLink();
+			tearDown();
 		}
 		
 		else
@@ -69,7 +70,7 @@ public class SignUp extends BaseClass {
 			e.printStackTrace();
 		}
 	
-	
+
 		
 	 }
 	
@@ -77,8 +78,6 @@ public class SignUp extends BaseClass {
 	public void VerifyEmailLink() throws InterruptedException
 	{
 
-		 
-    String email="yangjee8";
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\yangjee\\Desktop\\chromedriver\\chromedriver.exe");
 	webdriver=new ChromeDriver();
 	webdriver.manage().window().maximize();
@@ -94,5 +93,11 @@ public class SignUp extends BaseClass {
 	webdriver.findElement(By.linkText("I verify this is my email")).click(); 
     System.out.println(email + "@getnada.com" + " Email has been successfully verified.");
    
+	}
+	
+	
+	public void tearDown()
+	{
+		webdriver.quit();
 	}
 }

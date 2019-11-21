@@ -23,11 +23,12 @@ public class Login extends BaseClass {
 		SetText(elementPath1.email1,"yangjee7@getnada.com");
 		SetText(elementPath1.pass,"password1");
 		ClickBtn(elementPath1.login1); 
-		
+		Thread.sleep(4000);
 		locator=elementPath1.land_profile;
 		
 		String profile=GetText();
-		if(profile.equalsIgnoreCase("Profile Set Up"))//checking login profile title
+		System.out.println("profile" + profile);
+		if(profile.equalsIgnoreCase("Profile setup"))//checking login profile title
 		{
 			System.out.println("User has been successfully logged in.");	
 		}

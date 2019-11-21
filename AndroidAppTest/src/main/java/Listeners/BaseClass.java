@@ -29,9 +29,9 @@ import static io.appium.java_client.touch.WaitOptions.waitOptions;
 
 public class BaseClass{
 	
-	public AppiumDriver<MobileElement> driver=null;
+	public static AppiumDriver<MobileElement> driver=null;
 	public Properties Config=new Properties();
-	public String locator;
+	public static String locator=null;
 
 	
 
@@ -55,7 +55,7 @@ public class BaseClass{
 			 try
 		 {
 			 
-		 driver= new AndroidDriver<MobileElement>(new URL("http://0.0.0.1/4723/wd/hub"),cap);
+		 driver= new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),cap);
 		 System.out.println("Session is created");   
 			 
 		 }
@@ -156,14 +156,6 @@ public class BaseClass{
 	                .release().perform();
 	}
 	
-	
-	@AfterClass
-	public void tearDown()
-	{
-		driver.quit();
-	
-		
-	}
 
 	
 }

@@ -12,8 +12,7 @@ public class ProfileSetUpLandlord extends Elements {
 	AppiumDriver<MobileElement> driver;
 	Elements obj=new Elements();
 	
-	
-	
+
 	By ok=By.id(obj.ok);
 	By alert=By.id(obj.alert);
 	By land_prof=By.xpath(obj.land_profile);

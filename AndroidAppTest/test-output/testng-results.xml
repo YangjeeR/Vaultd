@@ -1,123 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel Testing" duration-ms="82475" started-at="2019-08-05T11:19:07Z" finished-at="2019-08-05T11:20:30Z">
+  <suite name="Default suite" duration-ms="1327341" started-at="2019-08-06T08:50:20Z" finished-at="2019-08-06T09:12:27Z">
     <groups>
     </groups>
-    <test name="Emulator 1" duration-ms="82452" started-at="2019-08-05T11:19:07Z" finished-at="2019-08-05T11:20:30Z">
-      <class name="Modules.SignUp">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Modules.SignUp@6f1fba17]" name="setUp" is-config="true" duration-ms="23751" started-at="2019-08-05T11:19:07Z" finished-at="2019-08-05T11:19:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mobile]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[192.168.127.101:5555]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Samsung Galaxy S7 ]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="1327341" started-at="2019-08-06T08:50:20Z" finished-at="2019-08-06T09:12:27Z">
+      <class name="Modules.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Modules.Login@5f9d02cb]" name="setUp" is-config="true" duration-ms="14958" started-at="2019-08-06T08:50:20Z" finished-at="2019-08-06T08:50:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startAppoumserver(java.lang.String)[pri:0, instance:Modules.SignUp@6f1fba17]" name="startAppoumserver" is-config="true" duration-ms="1" started-at="2019-08-05T11:19:31Z" finished-at="2019-08-05T11:19:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[grid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startAppoumserver -->
-        <test-method status="PASS" signature="Signup()[pri:0, instance:Modules.SignUp@6f1fba17]" name="Signup" duration-ms="52337" started-at="2019-08-05T11:19:31Z" finished-at="2019-08-05T11:20:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Signup -->
-        <test-method status="PASS" signature="stopAppiumServer(java.lang.String)[pri:0, instance:Modules.SignUp@6f1fba17]" name="stopAppiumServer" is-config="true" duration-ms="1" started-at="2019-08-05T11:20:30Z" finished-at="2019-08-05T11:20:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[grid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopAppiumServer -->
-      </class> <!-- Modules.SignUp -->
-      <class name="Modules.Login">
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Modules.Login@185d8b6]" name="LoginTest" duration-ms="6323" started-at="2019-08-05T11:20:24Z" finished-at="2019-08-05T11:20:30Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Modules.Login@5f9d02cb]" name="LoginTest" duration-ms="1312330" started-at="2019-08-06T08:50:35Z" finished-at="2019-08-06T09:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
       </class> <!-- Modules.Login -->
-    </test> <!-- Emulator 1 -->
-    <test name="Emulator 2" duration-ms="82475" started-at="2019-08-05T11:19:07Z" finished-at="2019-08-05T11:20:30Z">
-      <class name="Modules.SignUp">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Modules.SignUp@578486a3]" name="setUp" is-config="true" duration-ms="26254" started-at="2019-08-05T11:19:07Z" finished-at="2019-08-05T11:19:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mobile]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[192.168.127.102:5555]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Samsung Galaxy S8 ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startAppoumserver(java.lang.String)[pri:0, instance:Modules.SignUp@578486a3]" name="startAppoumserver" is-config="true" duration-ms="1" started-at="2019-08-05T11:19:34Z" finished-at="2019-08-05T11:19:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[grid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startAppoumserver -->
-        <test-method status="PASS" signature="Signup()[pri:0, instance:Modules.SignUp@578486a3]" name="Signup" duration-ms="50071" started-at="2019-08-05T11:19:34Z" finished-at="2019-08-05T11:20:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Signup -->
-        <test-method status="PASS" signature="stopAppiumServer(java.lang.String)[pri:0, instance:Modules.SignUp@578486a3]" name="stopAppiumServer" is-config="true" duration-ms="1" started-at="2019-08-05T11:20:30Z" finished-at="2019-08-05T11:20:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[grid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopAppiumServer -->
-      </class> <!-- Modules.SignUp -->
-      <class name="Modules.Login">
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:Modules.Login@551aa95a]" name="LoginTest" duration-ms="6136" started-at="2019-08-05T11:20:24Z" finished-at="2019-08-05T11:20:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-      </class> <!-- Modules.Login -->
-    </test> <!-- Emulator 2 -->
-  </suite> <!-- Parallel Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
