@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="13" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13480" started-at="2019-11-26T10:08:00Z" finished-at="2019-11-26T10:08:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13480" started-at="2019-11-26T10:08:00Z" finished-at="2019-11-26T10:08:13Z">
+      <class name="com.qa.tests.FinekyAPITest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="177" started-at="2019-11-26T10:08:01Z" finished-at="2019-11-26T10:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.login(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="87" started-at="2019-11-26T10:08:01Z" finished-at="2019-11-26T10:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="8" started-at="2019-11-26T10:08:01Z" finished-at="2019-11-26T10:08:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinekyAPITest@42e26948]" name="login" duration-ms="1688" started-at="2019-11-26T10:08:01Z" data-provider="LoginData" finished-at="2019-11-26T10:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yangjee@getnada.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Using valid email and password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="342" started-at="2019-11-26T10:08:03Z" finished-at="2019-11-26T10:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FinekyAPITest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="159" started-at="2019-11-26T10:08:03Z" finished-at="2019-11-26T10:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:03Z" finished-at="2019-11-26T10:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.login(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="67" started-at="2019-11-26T10:08:03Z" finished-at="2019-11-26T10:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:04Z" finished-at="2019-11-26T10:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinekyAPITest@42e26948]" name="login" duration-ms="686" started-at="2019-11-26T10:08:04Z" data-provider="LoginData" finished-at="2019-11-26T10:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yangjee@getnada.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Using invalid password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[401]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="111" started-at="2019-11-26T10:08:04Z" finished-at="2019-11-26T10:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FinekyAPITest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="73" started-at="2019-11-26T10:08:04Z" finished-at="2019-11-26T10:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="54" started-at="2019-11-26T10:08:04Z" finished-at="2019-11-26T10:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:04Z" finished-at="2019-11-26T10:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.login(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:04Z" finished-at="2019-11-26T10:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinekyAPITest@42e26948]" name="login" duration-ms="554" started-at="2019-11-26T10:08:04Z" data-provider="LoginData" finished-at="2019-11-26T10:08:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yangjee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Using invalid email]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[422]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="78" started-at="2019-11-26T10:08:05Z" finished-at="2019-11-26T10:08:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FinekyAPITest.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="61" started-at="2019-11-26T10:08:05Z" finished-at="2019-11-26T10:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:05Z" finished-at="2019-11-26T10:08:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.RefreshToken() throws org.apache.http.client.ClientProtocolException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="49" started-at="2019-11-26T10:08:05Z" finished-at="2019-11-26T10:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="RefreshToken()[pri:3, instance:com.qa.tests.FinekyAPITest@42e26948]" name="RefreshToken" duration-ms="580" started-at="2019-11-26T10:08:05Z" finished-at="2019-11-26T10:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshToken -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:05Z" finished-at="2019-11-26T10:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="77" started-at="2019-11-26T10:08:06Z" finished-at="2019-11-26T10:08:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RefreshToken status=SUCCESS method=FinekyAPITest.RefreshToken()[pri:3, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="47" started-at="2019-11-26T10:08:06Z" finished-at="2019-11-26T10:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:06Z" finished-at="2019-11-26T10:08:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.getUserProfile() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="39" started-at="2019-11-26T10:08:06Z" finished-at="2019-11-26T10:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:06Z" finished-at="2019-11-26T10:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getUserProfile()[pri:4, instance:com.qa.tests.FinekyAPITest@42e26948]" name="getUserProfile" duration-ms="581" started-at="2019-11-26T10:08:06Z" finished-at="2019-11-26T10:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserProfile -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="96" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUserProfile status=SUCCESS method=FinekyAPITest.getUserProfile()[pri:4, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="42" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.UpdateProfile() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="46" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UpdateProfile()[pri:5, instance:com.qa.tests.FinekyAPITest@42e26948]" name="UpdateProfile" duration-ms="563" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProfile -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="85" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateProfile status=SUCCESS method=FinekyAPITest.UpdateProfile()[pri:5, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="57" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.VerificationEmail() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="44" started-at="2019-11-26T10:08:07Z" finished-at="2019-11-26T10:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:08Z" finished-at="2019-11-26T10:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="VerificationEmail()[pri:6, instance:com.qa.tests.FinekyAPITest@42e26948]" name="VerificationEmail" duration-ms="593" started-at="2019-11-26T10:08:08Z" finished-at="2019-11-26T10:08:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [422]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [422]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.qa.tests.FinekyAPITest.VerificationEmail(FinekyAPITest.java:391)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerificationEmail -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="110" started-at="2019-11-26T10:08:08Z" finished-at="2019-11-26T10:08:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerificationEmail status=FAILURE method=FinekyAPITest.VerificationEmail()[pri:6, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="72" started-at="2019-11-26T10:08:08Z" finished-at="2019-11-26T10:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:08Z" finished-at="2019-11-26T10:08:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.ForgotPassword() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="47" started-at="2019-11-26T10:08:08Z" finished-at="2019-11-26T10:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:08Z" finished-at="2019-11-26T10:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ForgotPassword()[pri:7, instance:com.qa.tests.FinekyAPITest@42e26948]" name="ForgotPassword" duration-ms="570" started-at="2019-11-26T10:08:08Z" finished-at="2019-11-26T10:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="90" started-at="2019-11-26T10:08:09Z" finished-at="2019-11-26T10:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPassword status=SUCCESS method=FinekyAPITest.ForgotPassword()[pri:7, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="41" started-at="2019-11-26T10:08:09Z" finished-at="2019-11-26T10:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="38" started-at="2019-11-26T10:08:09Z" finished-at="2019-11-26T10:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:09Z" finished-at="2019-11-26T10:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.ChangePassword() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:09Z" finished-at="2019-11-26T10:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="ChangePassword()[pri:8, instance:com.qa.tests.FinekyAPITest@42e26948]" name="ChangePassword" duration-ms="664" started-at="2019-11-26T10:08:09Z" finished-at="2019-11-26T10:08:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [422]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [422]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.qa.tests.FinekyAPITest.ChangePassword(FinekyAPITest.java:469)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePassword -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="73" started-at="2019-11-26T10:08:10Z" finished-at="2019-11-26T10:08:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePassword status=FAILURE method=FinekyAPITest.ChangePassword()[pri:8, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="36" started-at="2019-11-26T10:08:10Z" finished-at="2019-11-26T10:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:10Z" finished-at="2019-11-26T10:08:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.GetPages() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="48" started-at="2019-11-26T10:08:10Z" finished-at="2019-11-26T10:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:10Z" finished-at="2019-11-26T10:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="GetPages()[pri:9, instance:com.qa.tests.FinekyAPITest@42e26948]" name="GetPages" duration-ms="1168" started-at="2019-11-26T10:08:10Z" finished-at="2019-11-26T10:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetPages -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="90" started-at="2019-11-26T10:08:11Z" finished-at="2019-11-26T10:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GetPages status=SUCCESS method=FinekyAPITest.GetPages()[pri:9, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="40" started-at="2019-11-26T10:08:11Z" finished-at="2019-11-26T10:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="33" started-at="2019-11-26T10:08:11Z" finished-at="2019-11-26T10:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:11Z" finished-at="2019-11-26T10:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.getProjectStatus() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:11Z" finished-at="2019-11-26T10:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getProjectStatus()[pri:10, instance:com.qa.tests.FinekyAPITest@42e26948]" name="getProjectStatus" duration-ms="590" started-at="2019-11-26T10:08:11Z" finished-at="2019-11-26T10:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectStatus -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="79" started-at="2019-11-26T10:08:12Z" finished-at="2019-11-26T10:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getProjectStatus status=SUCCESS method=FinekyAPITest.getProjectStatus()[pri:10, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="42" started-at="2019-11-26T10:08:12Z" finished-at="2019-11-26T10:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:12Z" finished-at="2019-11-26T10:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.CreateProject() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="37" started-at="2019-11-26T10:08:12Z" finished-at="2019-11-26T10:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="FAIL" signature="CreateProject()[pri:11, instance:com.qa.tests.FinekyAPITest@42e26948]" name="CreateProject" duration-ms="575" started-at="2019-11-26T10:08:12Z" finished-at="2019-11-26T10:08:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [422]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [422]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at com.qa.tests.FinekyAPITest.CreateProject(FinekyAPITest.java:607)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProject -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:12Z" finished-at="2019-11-26T10:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="58" started-at="2019-11-26T10:08:13Z" finished-at="2019-11-26T10:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateProject status=FAILURE method=FinekyAPITest.CreateProject()[pri:11, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="40" started-at="2019-11-26T10:08:13Z" finished-at="2019-11-26T10:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="read" is-config="true" duration-ms="58" started-at="2019-11-26T10:08:13Z" finished-at="2019-11-26T10:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-11-26T10:08:13Z" finished-at="2019-11-26T10:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.FinekyAPITest.AddPropertyDetails() throws com.fasterxml.jackson.core.JsonGenerationException,com.fasterxml.jackson.databind.JsonMappingException,java.io.IOException,java.net.URISyntaxException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="setUp" is-config="true" duration-ms="1" started-at="2019-11-26T10:08:13Z" finished-at="2019-11-26T10:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddPropertyDetails()[pri:12, instance:com.qa.tests.FinekyAPITest@42e26948]" name="AddPropertyDetails" duration-ms="576" started-at="2019-11-26T10:08:13Z" finished-at="2019-11-26T10:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPropertyDetails -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="afterMethod" is-config="true" duration-ms="70" started-at="2019-11-26T10:08:13Z" finished-at="2019-11-26T10:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddPropertyDetails status=SUCCESS method=FinekyAPITest.AddPropertyDetails()[pri:12, instance:com.qa.tests.FinekyAPITest@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="write()[pri:0, instance:com.qa.tests.FinekyAPITest@42e26948]" name="write" is-config="true" duration-ms="30" started-at="2019-11-26T10:08:13Z" finished-at="2019-11-26T10:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+      </class> <!-- com.qa.tests.FinekyAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
